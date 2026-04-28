@@ -1,0 +1,5 @@
+// MLP FITNESS - Script de seed con la rutina de Capi
+// Idempotente: funciona aunque ya haya ejercicios en la DB
+
+const seed = async (db) => {
+  console.log('🌱 Ejecutando seed de rutinas...');

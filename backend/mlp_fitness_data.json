@@ -1,0 +1,2326 @@
+{
+  "rutinas": [
+    {
+      "id": 1,
+      "nombre": "Push 1",
+      "dia_semana": 1,
+      "descripcion": "Pecho / Hombros / Tr\u00edceps",
+      "campania_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Pull 1",
+      "dia_semana": 2,
+      "descripcion": "Espalda / B\u00edceps",
+      "campania_id": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Legs",
+      "dia_semana": 3,
+      "descripcion": "Pierna completa",
+      "campania_id": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Pull 2",
+      "dia_semana": 4,
+      "descripcion": "Espalda / B\u00edceps (variaci\u00f3n)",
+      "campania_id": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Push 2",
+      "dia_semana": 5,
+      "descripcion": "Pecho / Hombros / Tr\u00edceps (variaci\u00f3n)",
+      "campania_id": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Push 1 Intensificaci\u00f3n",
+      "dia_semana": 1,
+      "descripcion": "Pecho / Hombros / Tr\u00edceps \u2014 Alta intensidad",
+      "campania_id": 3
+    },
+    {
+      "id": 7,
+      "nombre": "Pull 1 Intensificaci\u00f3n",
+      "dia_semana": 2,
+      "descripcion": "Espalda / B\u00edceps \u2014 Tir\u00f3n vertical y horizontal",
+      "campania_id": 3
+    },
+    {
+      "id": 8,
+      "nombre": "Legs Intensificaci\u00f3n",
+      "dia_semana": 3,
+      "descripcion": "Pierna completa \u2014 Squat, RDL y aislamientos",
+      "campania_id": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Pull 2 Intensificaci\u00f3n",
+      "dia_semana": 4,
+      "descripcion": "Espalda horizontal + Core",
+      "campania_id": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Push 2 Intensificaci\u00f3n",
+      "dia_semana": 5,
+      "descripcion": "Hombros / Pecho / Tr\u00edceps + Core unilateral",
+      "campania_id": 3
+    },
+    {
+      "id": 11,
+      "nombre": "Push 1 \u2014 Progresi\u00f3n",
+      "dia_semana": 1,
+      "descripcion": "Pecho / Hombros / Tr\u00edceps \u2014 SUBIR PESO cada semana",
+      "campania_id": 2
+    },
+    {
+      "id": 12,
+      "nombre": "Pull 1 \u2014 Progresi\u00f3n",
+      "dia_semana": 2,
+      "descripcion": "Espalda / B\u00edceps \u2014 SUBIR PESO cada semana",
+      "campania_id": 2
+    },
+    {
+      "id": 13,
+      "nombre": "Legs \u2014 Progresi\u00f3n",
+      "dia_semana": 3,
+      "descripcion": "Pierna completa \u2014 SUBIR PESO en compuestos",
+      "campania_id": 2
+    },
+    {
+      "id": 14,
+      "nombre": "Pull 2 \u2014 Progresi\u00f3n",
+      "dia_semana": 4,
+      "descripcion": "Espalda / B\u00edceps variaci\u00f3n",
+      "campania_id": 2
+    },
+    {
+      "id": 15,
+      "nombre": "Push 2 \u2014 Progresi\u00f3n",
+      "dia_semana": 5,
+      "descripcion": "Pecho / Hombros / Tr\u00edceps variaci\u00f3n",
+      "campania_id": 2
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": 1,
+      "nombre": "Press de Banca Inclinado",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 2,
+      "nombre": "Press de Pecho",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Chest_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 3,
+      "nombre": "Aperturas",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butterfly/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 4,
+      "nombre": "Press de Hombros",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Shoulder_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 5,
+      "nombre": "Elevaciones Laterales",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Lateral_Raise/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 6,
+      "nombre": "Extensi\u00f3n de Tr\u00edceps con Cuerda",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Pushdown_-_Rope_Attachment/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 7,
+      "nombre": "Jal\u00f3n al Pecho",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 8,
+      "nombre": "Remo Sentado con Agarre en V",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Cable_Rows/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 9,
+      "nombre": "Remo Inclinado con Apoyo de Pecho",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Incline_Row/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 10,
+      "nombre": "Vuelos Posteriores",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Machine_Flyes/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 11,
+      "nombre": "Curl Predicador",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Machine_Preacher_Curls/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 12,
+      "nombre": "Curl Martillo",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hammer_Curls/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 13,
+      "nombre": "Sentadilla B\u00falgara",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Split_Squat_with_Dumbbells/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 1,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 14,
+      "nombre": "Press de Piernas",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 15,
+      "nombre": "Peso Muerto Rumano",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stiff-Legged_Dumbbell_Deadlift/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 16,
+      "nombre": "Curl de Piernas Acostado",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Leg_Curls/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 17,
+      "nombre": "Extensi\u00f3n de Pierna",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Extensions/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 18,
+      "nombre": "Hip Thrust",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Hip_Thrust/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 19,
+      "nombre": "Extensi\u00f3n de Pantorrilla",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Calf_Raises/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 20,
+      "nombre": "Jal\u00f3n al Pecho Agarre Neutro",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/V-Bar_Pulldown/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 21,
+      "nombre": "Remo Iso-Lateral",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Iso_Row/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 22,
+      "nombre": "Jal\u00f3n de Remo a Un Brazo",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_One-arm_Cable_Pulley_Rows/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 1,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 23,
+      "nombre": "Face Pull",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Face_Pull/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 24,
+      "nombre": "Curl de B\u00edceps",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bicep_Curl/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 25,
+      "nombre": "Press de Banca Plano",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bench_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 26,
+      "nombre": "Press de Hombros M\u00e1quina",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Machine_Shoulder_Military_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 27,
+      "nombre": "Fondos en Paralelas",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Peso Corporal",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Chest_Version/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 28,
+      "nombre": "Elevaciones Laterales con Cable",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Seated_Lateral_Raise/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 29,
+      "nombre": "Extensi\u00f3n de Tr\u00edceps Sobre la Cabeza",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Cable",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rope_Overhead_Triceps_Extension/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 30,
+      "nombre": "Plancha",
+      "grupo_muscular": "Core",
+      "equipamiento": "Peso Corporal",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "segundos"
+    },
+    {
+      "id": 31,
+      "nombre": "Press de Banca con Barra",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Bench_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 32,
+      "nombre": "Aperturas Cruce de Poleas",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Cable",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 33,
+      "nombre": "Press Arnold",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Arnold_Dumbbell_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 34,
+      "nombre": "Press Franc\u00e9s con Barra EZ",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_French_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 35,
+      "nombre": "Dominadas Asistidas",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Peso Corporal",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Assisted_Pull-Up/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 36,
+      "nombre": "Remo con Barra",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Bent_Over_Row/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 37,
+      "nombre": "Remo con Mancuerna a Un Brazo",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Mancuerna",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 1,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 38,
+      "nombre": "Vuelos Posteriores con Cable",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 39,
+      "nombre": "Curl con Barra Z",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Curl/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 40,
+      "nombre": "Curl Concentrado",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Mancuerna",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 41,
+      "nombre": "Sentadilla con Barra",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Full_Squat/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 42,
+      "nombre": "Peso Muerto Rumano con Barra",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Romanian_Deadlift/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 43,
+      "nombre": "Elevaci\u00f3n de Gemelos de Pie",
+      "grupo_muscular": "Pierna",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 44,
+      "nombre": "Jal\u00f3n al Pecho Agarre Amplio",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 45,
+      "nombre": "Remo en T",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "M\u00e1quina",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 46,
+      "nombre": "Pullover con Cable",
+      "grupo_muscular": "Espalda",
+      "equipamiento": "Cable",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 47,
+      "nombre": "Press Militar con Barra",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "Barra",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Standing_Military_Press/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 48,
+      "nombre": "Press de Banca Plano con Barra",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Barra",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 49,
+      "nombre": "Fondos con Peso",
+      "grupo_muscular": "Pecho",
+      "equipamiento": "Peso Corporal",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 50,
+      "nombre": "Elevaciones Laterales con Mancuerna",
+      "grupo_muscular": "Hombros",
+      "equipamiento": "Mancuerna",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 51,
+      "nombre": "Extensi\u00f3n de Tr\u00edceps con Barra",
+      "grupo_muscular": "Brazos",
+      "equipamiento": "Barra",
+      "imagen_url": null,
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 52,
+      "nombre": "Plancha Lateral",
+      "grupo_muscular": "Core",
+      "equipamiento": "Peso Corporal",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Plank/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 1,
+      "tipo_medicion": "segundos"
+    },
+    {
+      "id": 53,
+      "nombre": "Caminadora",
+      "grupo_muscular": "Cardio",
+      "equipamiento": "Cardio",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jogging_Treadmill/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "minutos"
+    },
+    {
+      "id": 54,
+      "nombre": "Caminadora Recuperaci\u00f3n",
+      "grupo_muscular": "Cardio",
+      "equipamiento": "Cardio",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jogging_Treadmill/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "minutos"
+    },
+    {
+      "id": 55,
+      "nombre": "Caminadora Intensificaci\u00f3n",
+      "grupo_muscular": "Cardio",
+      "equipamiento": "Cardio",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jogging_Treadmill/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "minutos"
+    },
+    {
+      "id": 56,
+      "nombre": "Rodillas al Pecho Colgado",
+      "grupo_muscular": "Core",
+      "equipamiento": "Peso Corporal",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 0,
+      "tipo_medicion": "reps"
+    },
+    {
+      "id": 57,
+      "nombre": "Russian Twist con Peso",
+      "grupo_muscular": "Core",
+      "equipamiento": "Mancuerna",
+      "imagen_url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/0.jpg",
+      "descripcion": null,
+      "es_unilateral": 1,
+      "tipo_medicion": "reps"
+    }
+  ],
+  "rutina_ejercicios": [
+    {
+      "id": 1,
+      "rutina_id": 1,
+      "ejercicio_id": 1,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 2,
+      "rutina_id": 1,
+      "ejercicio_id": 2,
+      "orden": 2,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 3,
+      "rutina_id": 1,
+      "ejercicio_id": 3,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 4,
+      "rutina_id": 1,
+      "ejercicio_id": 4,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 5,
+      "rutina_id": 1,
+      "ejercicio_id": 5,
+      "orden": 5,
+      "series_objetivo": 4,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 6,
+      "rutina_id": 1,
+      "ejercicio_id": 6,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 7,
+      "rutina_id": 2,
+      "ejercicio_id": 7,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 8,
+      "rutina_id": 2,
+      "ejercicio_id": 8,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 9,
+      "rutina_id": 2,
+      "ejercicio_id": 9,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 10,
+      "rutina_id": 2,
+      "ejercicio_id": 10,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 11,
+      "rutina_id": 2,
+      "ejercicio_id": 11,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 12,
+      "rutina_id": 2,
+      "ejercicio_id": 12,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 13,
+      "rutina_id": 3,
+      "ejercicio_id": 13,
+      "orden": 1,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": "Por pierna \u2014 unilateral"
+    },
+    {
+      "id": 14,
+      "rutina_id": 3,
+      "ejercicio_id": 14,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 15,
+      "rutina_id": 3,
+      "ejercicio_id": 15,
+      "orden": 3,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 16,
+      "rutina_id": 3,
+      "ejercicio_id": 16,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 17,
+      "rutina_id": 3,
+      "ejercicio_id": 17,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 18,
+      "rutina_id": 3,
+      "ejercicio_id": 18,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 19,
+      "rutina_id": 3,
+      "ejercicio_id": 19,
+      "orden": 7,
+      "series_objetivo": 4,
+      "reps_min": 15,
+      "reps_max": 20,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 20,
+      "rutina_id": 4,
+      "ejercicio_id": 20,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 21,
+      "rutina_id": 4,
+      "ejercicio_id": 21,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 22,
+      "rutina_id": 4,
+      "ejercicio_id": 22,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": "Por lado \u2014 unilateral"
+    },
+    {
+      "id": 23,
+      "rutina_id": 4,
+      "ejercicio_id": 23,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 24,
+      "rutina_id": 4,
+      "ejercicio_id": 24,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 25,
+      "rutina_id": 5,
+      "ejercicio_id": 25,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 26,
+      "rutina_id": 5,
+      "ejercicio_id": 26,
+      "orden": 2,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 27,
+      "rutina_id": 5,
+      "ejercicio_id": 27,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": "Asistido si es necesario"
+    },
+    {
+      "id": 28,
+      "rutina_id": 5,
+      "ejercicio_id": 28,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 29,
+      "rutina_id": 5,
+      "ejercicio_id": 29,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 31,
+      "rutina_id": 6,
+      "ejercicio_id": 1,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 32,
+      "rutina_id": 6,
+      "ejercicio_id": 31,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 6,
+      "reps_max": 8,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 33,
+      "rutina_id": 6,
+      "ejercicio_id": 32,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 34,
+      "rutina_id": 6,
+      "ejercicio_id": 33,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 35,
+      "rutina_id": 6,
+      "ejercicio_id": 5,
+      "orden": 5,
+      "series_objetivo": 4,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 36,
+      "rutina_id": 6,
+      "ejercicio_id": 34,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 37,
+      "rutina_id": 7,
+      "ejercicio_id": 35,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 6,
+      "reps_max": 8,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 38,
+      "rutina_id": 7,
+      "ejercicio_id": 36,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 39,
+      "rutina_id": 7,
+      "ejercicio_id": 37,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": "Por lado"
+    },
+    {
+      "id": 40,
+      "rutina_id": 7,
+      "ejercicio_id": 38,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 41,
+      "rutina_id": 7,
+      "ejercicio_id": 39,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 42,
+      "rutina_id": 7,
+      "ejercicio_id": 40,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 43,
+      "rutina_id": 8,
+      "ejercicio_id": 41,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 6,
+      "reps_max": 8,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 44,
+      "rutina_id": 8,
+      "ejercicio_id": 13,
+      "orden": 2,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": "Por pierna"
+    },
+    {
+      "id": 45,
+      "rutina_id": 8,
+      "ejercicio_id": 42,
+      "orden": 3,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 46,
+      "rutina_id": 8,
+      "ejercicio_id": 16,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 47,
+      "rutina_id": 8,
+      "ejercicio_id": 17,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 48,
+      "rutina_id": 8,
+      "ejercicio_id": 18,
+      "orden": 6,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 49,
+      "rutina_id": 8,
+      "ejercicio_id": 43,
+      "orden": 7,
+      "series_objetivo": 4,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 50,
+      "rutina_id": 9,
+      "ejercicio_id": 44,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 51,
+      "rutina_id": 9,
+      "ejercicio_id": 45,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 52,
+      "rutina_id": 9,
+      "ejercicio_id": 46,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 53,
+      "rutina_id": 9,
+      "ejercicio_id": 23,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 54,
+      "rutina_id": 9,
+      "ejercicio_id": 12,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 56,
+      "rutina_id": 10,
+      "ejercicio_id": 47,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 6,
+      "reps_max": 8,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 57,
+      "rutina_id": 10,
+      "ejercicio_id": 48,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 58,
+      "rutina_id": 10,
+      "ejercicio_id": 49,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 59,
+      "rutina_id": 10,
+      "ejercicio_id": 50,
+      "orden": 4,
+      "series_objetivo": 4,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 60,
+      "rutina_id": 10,
+      "ejercicio_id": 51,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 61,
+      "rutina_id": 10,
+      "ejercicio_id": 52,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 30,
+      "reps_max": 45,
+      "descanso_segundos": 60,
+      "nota_especial": "Por lado \u2014 unilateral"
+    },
+    {
+      "id": 62,
+      "rutina_id": 1,
+      "ejercicio_id": 53,
+      "orden": 7,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": "6 km/h, inclinaci\u00f3n 8%"
+    },
+    {
+      "id": 63,
+      "rutina_id": 2,
+      "ejercicio_id": 30,
+      "orden": 7,
+      "series_objetivo": 3,
+      "reps_min": 45,
+      "reps_max": 60,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 64,
+      "rutina_id": 2,
+      "ejercicio_id": 56,
+      "orden": 8,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 65,
+      "rutina_id": 2,
+      "ejercicio_id": 53,
+      "orden": 9,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": "6 km/h, inclinaci\u00f3n 8%"
+    },
+    {
+      "id": 66,
+      "rutina_id": 3,
+      "ejercicio_id": 54,
+      "orden": 8,
+      "series_objetivo": 1,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 0,
+      "nota_especial": "5 km/h, inclinaci\u00f3n 5% \u2014 recuperaci\u00f3n activa"
+    },
+    {
+      "id": 67,
+      "rutina_id": 4,
+      "ejercicio_id": 53,
+      "orden": 6,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": "6 km/h, inclinaci\u00f3n 8%"
+    },
+    {
+      "id": 68,
+      "rutina_id": 5,
+      "ejercicio_id": 52,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 30,
+      "reps_max": 45,
+      "descanso_segundos": 60,
+      "nota_especial": "Por cada lado"
+    },
+    {
+      "id": 69,
+      "rutina_id": 5,
+      "ejercicio_id": 57,
+      "orden": 7,
+      "series_objetivo": 3,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": "Por cada lado"
+    },
+    {
+      "id": 70,
+      "rutina_id": 5,
+      "ejercicio_id": 53,
+      "orden": 8,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": "6 km/h, inclinaci\u00f3n 8%"
+    },
+    {
+      "id": 71,
+      "rutina_id": 11,
+      "ejercicio_id": 1,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 72,
+      "rutina_id": 11,
+      "ejercicio_id": 2,
+      "orden": 2,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 73,
+      "rutina_id": 11,
+      "ejercicio_id": 3,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 74,
+      "rutina_id": 11,
+      "ejercicio_id": 4,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 75,
+      "rutina_id": 11,
+      "ejercicio_id": 5,
+      "orden": 5,
+      "series_objetivo": 4,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 76,
+      "rutina_id": 11,
+      "ejercicio_id": 6,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 77,
+      "rutina_id": 11,
+      "ejercicio_id": 53,
+      "orden": 7,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": "6 km/h, 8% inclinaci\u00f3n"
+    },
+    {
+      "id": 78,
+      "rutina_id": 12,
+      "ejercicio_id": 7,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 79,
+      "rutina_id": 12,
+      "ejercicio_id": 8,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 80,
+      "rutina_id": 12,
+      "ejercicio_id": 9,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 81,
+      "rutina_id": 12,
+      "ejercicio_id": 10,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 82,
+      "rutina_id": 12,
+      "ejercicio_id": 11,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 83,
+      "rutina_id": 12,
+      "ejercicio_id": 12,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 84,
+      "rutina_id": 12,
+      "ejercicio_id": 30,
+      "orden": 7,
+      "series_objetivo": 3,
+      "reps_min": 45,
+      "reps_max": 60,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 85,
+      "rutina_id": 12,
+      "ejercicio_id": 56,
+      "orden": 8,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 86,
+      "rutina_id": 12,
+      "ejercicio_id": 53,
+      "orden": 9,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": null
+    },
+    {
+      "id": 87,
+      "rutina_id": 13,
+      "ejercicio_id": 13,
+      "orden": 1,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 88,
+      "rutina_id": 13,
+      "ejercicio_id": 14,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 89,
+      "rutina_id": 13,
+      "ejercicio_id": 15,
+      "orden": 3,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 90,
+      "rutina_id": 13,
+      "ejercicio_id": 16,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 91,
+      "rutina_id": 13,
+      "ejercicio_id": 17,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 92,
+      "rutina_id": 13,
+      "ejercicio_id": 18,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 93,
+      "rutina_id": 13,
+      "ejercicio_id": 19,
+      "orden": 7,
+      "series_objetivo": 4,
+      "reps_min": 15,
+      "reps_max": 20,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 94,
+      "rutina_id": 13,
+      "ejercicio_id": 54,
+      "orden": 8,
+      "series_objetivo": 1,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 0,
+      "nota_especial": null
+    },
+    {
+      "id": 95,
+      "rutina_id": 14,
+      "ejercicio_id": 20,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 96,
+      "rutina_id": 14,
+      "ejercicio_id": 21,
+      "orden": 2,
+      "series_objetivo": 4,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 97,
+      "rutina_id": 14,
+      "ejercicio_id": 22,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 98,
+      "rutina_id": 14,
+      "ejercicio_id": 23,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 99,
+      "rutina_id": 14,
+      "ejercicio_id": 24,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 100,
+      "rutina_id": 14,
+      "ejercicio_id": 53,
+      "orden": 6,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": null
+    },
+    {
+      "id": 101,
+      "rutina_id": 15,
+      "ejercicio_id": 25,
+      "orden": 1,
+      "series_objetivo": 4,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 102,
+      "rutina_id": 15,
+      "ejercicio_id": 26,
+      "orden": 2,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 103,
+      "rutina_id": 15,
+      "ejercicio_id": 27,
+      "orden": 3,
+      "series_objetivo": 3,
+      "reps_min": 8,
+      "reps_max": 10,
+      "descanso_segundos": 120,
+      "nota_especial": null
+    },
+    {
+      "id": 104,
+      "rutina_id": 15,
+      "ejercicio_id": 28,
+      "orden": 4,
+      "series_objetivo": 3,
+      "reps_min": 12,
+      "reps_max": 15,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 105,
+      "rutina_id": 15,
+      "ejercicio_id": 29,
+      "orden": 5,
+      "series_objetivo": 3,
+      "reps_min": 10,
+      "reps_max": 12,
+      "descanso_segundos": 90,
+      "nota_especial": null
+    },
+    {
+      "id": 106,
+      "rutina_id": 15,
+      "ejercicio_id": 52,
+      "orden": 6,
+      "series_objetivo": 3,
+      "reps_min": 30,
+      "reps_max": 45,
+      "descanso_segundos": 60,
+      "nota_especial": "Por cada lado"
+    },
+    {
+      "id": 107,
+      "rutina_id": 15,
+      "ejercicio_id": 57,
+      "orden": 7,
+      "series_objetivo": 3,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": "Por cada lado"
+    },
+    {
+      "id": 108,
+      "rutina_id": 15,
+      "ejercicio_id": 53,
+      "orden": 8,
+      "series_objetivo": 1,
+      "reps_min": 20,
+      "reps_max": 25,
+      "descanso_segundos": 0,
+      "nota_especial": null
+    },
+    {
+      "id": 109,
+      "rutina_id": 6,
+      "ejercicio_id": 55,
+      "orden": 7,
+      "series_objetivo": 1,
+      "reps_min": 25,
+      "reps_max": 30,
+      "descanso_segundos": 0,
+      "nota_especial": "6.5 km/h, 10% inclinaci\u00f3n"
+    },
+    {
+      "id": 110,
+      "rutina_id": 7,
+      "ejercicio_id": 30,
+      "orden": 7,
+      "series_objetivo": 3,
+      "reps_min": 60,
+      "reps_max": 60,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 111,
+      "rutina_id": 7,
+      "ejercicio_id": 56,
+      "orden": 8,
+      "series_objetivo": 3,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": null
+    },
+    {
+      "id": 112,
+      "rutina_id": 7,
+      "ejercicio_id": 55,
+      "orden": 9,
+      "series_objetivo": 1,
+      "reps_min": 25,
+      "reps_max": 30,
+      "descanso_segundos": 0,
+      "nota_especial": "6.5 km/h, 10% inclinaci\u00f3n"
+    },
+    {
+      "id": 113,
+      "rutina_id": 8,
+      "ejercicio_id": 54,
+      "orden": 8,
+      "series_objetivo": 1,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 0,
+      "nota_especial": "5 km/h, 5% \u2014 post-pierna"
+    },
+    {
+      "id": 114,
+      "rutina_id": 9,
+      "ejercicio_id": 55,
+      "orden": 6,
+      "series_objetivo": 1,
+      "reps_min": 25,
+      "reps_max": 30,
+      "descanso_segundos": 0,
+      "nota_especial": "6.5 km/h, 10% inclinaci\u00f3n"
+    },
+    {
+      "id": 115,
+      "rutina_id": 10,
+      "ejercicio_id": 57,
+      "orden": 7,
+      "series_objetivo": 3,
+      "reps_min": 15,
+      "reps_max": 15,
+      "descanso_segundos": 60,
+      "nota_especial": "Por cada lado"
+    },
+    {
+      "id": 116,
+      "rutina_id": 10,
+      "ejercicio_id": 55,
+      "orden": 8,
+      "series_objetivo": 1,
+      "reps_min": 25,
+      "reps_max": 30,
+      "descanso_segundos": 0,
+      "nota_especial": "6.5 km/h, 10% inclinaci\u00f3n"
+    }
+  ],
+  "entrenos": [
+    {
+      "id": 1,
+      "fecha": "2026-04-20 21:16:36",
+      "rutina_id": 1,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 2,
+      "fecha": "2026-04-20 21:21:05",
+      "rutina_id": 1,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 3,
+      "fecha": "2026-04-20 21:57:59",
+      "rutina_id": 1,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 4,
+      "fecha": "2026-04-20 22:17:43",
+      "rutina_id": 2,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 5,
+      "fecha": "2026-04-21 07:36:06",
+      "rutina_id": 1,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 6,
+      "fecha": "2026-04-22 09:12:01",
+      "rutina_id": 3,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 7,
+      "fecha": "2026-04-23 10:23:24",
+      "rutina_id": 4,
+      "duracion_minutos": 72,
+      "notas": null,
+      "completado": 1
+    },
+    {
+      "id": 8,
+      "fecha": "2026-04-23 22:30:41",
+      "rutina_id": 5,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 9,
+      "fecha": "2026-04-23 22:31:31",
+      "rutina_id": 4,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 10,
+      "fecha": "2026-04-23 22:32:34",
+      "rutina_id": 4,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 11,
+      "fecha": "2026-04-24 11:48:42",
+      "rutina_id": 5,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 12,
+      "fecha": "2026-04-24 11:48:49",
+      "rutina_id": 5,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    },
+    {
+      "id": 13,
+      "fecha": "2026-04-24 11:48:56",
+      "rutina_id": 4,
+      "duracion_minutos": null,
+      "notas": null,
+      "completado": 0
+    }
+  ],
+  "series_realizadas": [
+    {
+      "id": 1,
+      "entreno_id": 5,
+      "ejercicio_id": 1,
+      "numero_serie": 1,
+      "peso_kg": 22.0,
+      "reps": 9,
+      "rpe": null,
+      "es_pr": 1,
+      "timestamp": "2026-04-21 07:36:19"
+    },
+    {
+      "id": 2,
+      "entreno_id": 5,
+      "ejercicio_id": 1,
+      "numero_serie": 2,
+      "peso_kg": 22.0,
+      "reps": 9,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-21 07:37:49"
+    },
+    {
+      "id": 3,
+      "entreno_id": 7,
+      "ejercicio_id": 20,
+      "numero_serie": 1,
+      "peso_kg": 45.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 1,
+      "timestamp": "2026-04-23 10:25:20"
+    },
+    {
+      "id": 4,
+      "entreno_id": 7,
+      "ejercicio_id": 20,
+      "numero_serie": 2,
+      "peso_kg": 45.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 10:28:35"
+    },
+    {
+      "id": 5,
+      "entreno_id": 7,
+      "ejercicio_id": 20,
+      "numero_serie": 3,
+      "peso_kg": 45.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 10:32:32"
+    },
+    {
+      "id": 6,
+      "entreno_id": 7,
+      "ejercicio_id": 20,
+      "numero_serie": 4,
+      "peso_kg": 45.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 10:36:18"
+    },
+    {
+      "id": 7,
+      "entreno_id": 7,
+      "ejercicio_id": 21,
+      "numero_serie": 1,
+      "peso_kg": 10.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 1,
+      "timestamp": "2026-04-23 10:42:52"
+    },
+    {
+      "id": 8,
+      "entreno_id": 7,
+      "ejercicio_id": 21,
+      "numero_serie": 2,
+      "peso_kg": 10.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 10:45:59"
+    },
+    {
+      "id": 9,
+      "entreno_id": 7,
+      "ejercicio_id": 21,
+      "numero_serie": 3,
+      "peso_kg": 10.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 10:49:23"
+    },
+    {
+      "id": 10,
+      "entreno_id": 7,
+      "ejercicio_id": 21,
+      "numero_serie": 4,
+      "peso_kg": 10.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 10:52:10"
+    },
+    {
+      "id": 11,
+      "entreno_id": 7,
+      "ejercicio_id": 23,
+      "numero_serie": 1,
+      "peso_kg": 14.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 1,
+      "timestamp": "2026-04-23 10:58:32"
+    },
+    {
+      "id": 12,
+      "entreno_id": 7,
+      "ejercicio_id": 23,
+      "numero_serie": 2,
+      "peso_kg": 14.0,
+      "reps": 0,
+      "rpe": 10,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 11:01:14"
+    },
+    {
+      "id": 13,
+      "entreno_id": 7,
+      "ejercicio_id": 23,
+      "numero_serie": 3,
+      "peso_kg": 14.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 11:03:59"
+    },
+    {
+      "id": 14,
+      "entreno_id": 7,
+      "ejercicio_id": 24,
+      "numero_serie": 1,
+      "peso_kg": 10.0,
+      "reps": 10,
+      "rpe": null,
+      "es_pr": 1,
+      "timestamp": "2026-04-23 11:06:37"
+    },
+    {
+      "id": 15,
+      "entreno_id": 7,
+      "ejercicio_id": 24,
+      "numero_serie": 2,
+      "peso_kg": 10.0,
+      "reps": 8,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 11:11:37"
+    },
+    {
+      "id": 16,
+      "entreno_id": 7,
+      "ejercicio_id": 24,
+      "numero_serie": 3,
+      "peso_kg": 10.0,
+      "reps": 6,
+      "rpe": null,
+      "es_pr": 0,
+      "timestamp": "2026-04-23 11:17:37"
+    },
+    {
+      "id": 17,
+      "entreno_id": 7,
+      "ejercicio_id": 53,
+      "numero_serie": 1,
+      "peso_kg": 5.0,
+      "reps": 15,
+      "rpe": null,
+      "es_pr": 1,
+      "timestamp": "2026-04-23 11:35:36"
+    }
+  ],
+  "records_personales": [
+    {
+      "id": 1,
+      "ejercicio_id": 1,
+      "peso_max": 22.0,
+      "reps_a_ese_peso": 9,
+      "fecha": "2026-04-21 07:36:19",
+      "volumen_max": null,
+      "one_rm_estimado": 28.6
+    },
+    {
+      "id": 2,
+      "ejercicio_id": 20,
+      "peso_max": 45.0,
+      "reps_a_ese_peso": 10,
+      "fecha": "2026-04-23 10:25:20",
+      "volumen_max": null,
+      "one_rm_estimado": 60.0
+    },
+    {
+      "id": 3,
+      "ejercicio_id": 21,
+      "peso_max": 10.0,
+      "reps_a_ese_peso": 10,
+      "fecha": "2026-04-23 10:42:52",
+      "volumen_max": null,
+      "one_rm_estimado": 13.333333333333332
+    },
+    {
+      "id": 4,
+      "ejercicio_id": 23,
+      "peso_max": 14.0,
+      "reps_a_ese_peso": 10,
+      "fecha": "2026-04-23 10:58:32",
+      "volumen_max": null,
+      "one_rm_estimado": 18.666666666666664
+    },
+    {
+      "id": 5,
+      "ejercicio_id": 24,
+      "peso_max": 10.0,
+      "reps_a_ese_peso": 10,
+      "fecha": "2026-04-23 11:06:37",
+      "volumen_max": null,
+      "one_rm_estimado": 13.333333333333332
+    },
+    {
+      "id": 6,
+      "ejercicio_id": 53,
+      "peso_max": 5.0,
+      "reps_a_ese_peso": 15,
+      "fecha": "2026-04-23 11:35:36",
+      "volumen_max": null,
+      "one_rm_estimado": 7.5
+    }
+  ],
+  "campanias": [
+    {
+      "id": 1,
+      "nombre": "Adaptaci\u00f3n y Recuperaci\u00f3n",
+      "descripcion": "Campa\u00f1a 1 \u2014 Base y t\u00e9cnica",
+      "objetivo": "Recuperar t\u00e9cnica y pesos tras 2 meses parado. Enfoque en reconexi\u00f3n muscular.",
+      "duracion_semanas": 4,
+      "orden": 1,
+      "estado": "activa",
+      "fecha_inicio": "2026-04-21",
+      "fecha_fin": "2026-05-19",
+      "created_at": "2026-04-21 07:49:09"
+    },
+    {
+      "id": 2,
+      "nombre": "Progresi\u00f3n Activa",
+      "descripcion": "Campa\u00f1a 2 \u2014 Subida de carga",
+      "objetivo": "Subir peso cada semana (1-2kg). Reps al l\u00edmite superior del rango. Aqu\u00ed empieza el cambio f\u00edsico visible.",
+      "duracion_semanas": 4,
+      "orden": 2,
+      "estado": "pendiente",
+      "fecha_inicio": "2026-05-20",
+      "fecha_fin": "2026-06-17",
+      "created_at": "2026-04-21 07:49:09"
+    },
+    {
+      "id": 3,
+      "nombre": "Intensificaci\u00f3n Pre-Verano",
+      "descripcion": "Campa\u00f1a 3 \u2014 M\u00e1xima intensidad",
+      "objetivo": "Intensificar para llegar a verano definido. Nuevo est\u00edmulo muscular. Mantener fuerza, mejorar densidad.",
+      "duracion_semanas": 4,
+      "orden": 3,
+      "estado": "pendiente",
+      "fecha_inicio": "2026-06-18",
+      "fecha_fin": "2026-07-16",
+      "created_at": "2026-04-21 07:49:09"
+    }
+  ]
+}
